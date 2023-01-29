@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "health-journal"
+version = "0.1.0"
+description = ""
+authors = ["Jan Hein de Jong <janhein.dejong@gmail.com>"]
+readme = "README.md"
+packages = [{include = "health_journal"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.89.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
